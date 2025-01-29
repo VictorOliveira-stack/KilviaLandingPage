@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    top: 0;
+    
+}
+.font {
+    font-family: "Great Vibes", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+#cabeçalho{
+    margin-top: -3em;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.671);
+    display: flex;
+}
+@media (min-width: 320px) and (max-width: 504px){
+    #cabeçalho{
+        flex-direction: column;
+        
+    }
+}
+
+#fotocabeçalho{
+    margin-left: 0;
+    margin-top: 0;
+    height: 18em;
+    width: 23em;
+}
+@media (min-width: 320px) and (max-width: 504px){
+    #fotocabeçalho{
+        margin-left: 1em;
+        margin-top: 0;
+        height: 14em;
+        width: 18em;
+    }
+}
+
+#slogan{
+    /*margin-top: 6.5em;*/
+    margin-top: 3.8em;
+    margin-left: 10%;
+    color: rgb(192, 147, 88);
+    font-size: 26pt;
+    width: 9em;
+}
+@media (min-width: 320px) and (max-width: 504px){
+    #slogan{
+        /*margin-top: 6.5em;*/
+        margin-top: 1em;
+        margin-left: 15%;
+        color: rgb(192, 147, 88);
+        font-size: 20pt;
+        width: 9em;
+    }
+}
+
+
+#cta{
+    width: 4em;
+    height: 1.4em;
+    margin-top: 6.5em;
+    font-size: 16pt;
+    color: rgb(192, 147, 88);
+    cursor: pointer;
+    padding-left: 1em;
+    padding-top: 0.3em;
+    margin-left: 25%;
+    box-shadow: 0px 1px 1px 2px rgba(0, 0, 0, 0.301);
+    border-radius: 10em;
+}
+
+#cta:hover{
+    color: rgb(134, 214, 197);
+}
