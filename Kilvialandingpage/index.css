@@ -87,13 +87,16 @@ body{
     display: flex;
     height: 15em;
     gap: 1em;*/
-    width: 80%;
+  
+   
     margin: auto;
     position: relative;
     overflow: hidden;
 }
 
 .slides{
+    /*width: 80%;*/
+    width: 80%;
     margin-top: 10em;
     display: flex;
     transition: transform 0.5 ease;
@@ -106,7 +109,7 @@ body{
 }
 .slide img {
     width: 92%;
-    display: block;
+    display: flex;
 }
 
 .cordiv{
@@ -134,4 +137,13 @@ button {
     border: none;
     padding: 10px;
     cursor: pointer;
+  }
+  .prev {
+    margin-top: 6em;
+    left: 10px;
+  }
+  
+  .next {
+    margin-top: 6em;
+    right: 10px;
   }
