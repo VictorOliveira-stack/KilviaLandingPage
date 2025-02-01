@@ -18,7 +18,7 @@ function showSlide (index){
         currentIndex = 0
     }
 
-    const offset = currentIndex *100 //isso faz deslocar a imagem
+    const offset = -currentIndex *100 //isso faz deslocar a imagem
     document.querySelector('.slides').style.transform = `translateX(${offset}%)`;
 }
 
