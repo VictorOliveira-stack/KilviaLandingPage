@@ -102,6 +102,15 @@ body{
     transform: translateX(0);
     /*width: 15em;*/
 }
+/*
+.carrossel {
+    display: flex;
+    width: calc(15em * 5); 
+    transition: transform 0.5s ease-in-out;
+
+    houve um recomendaçao de ser assim estuda isso assim que puder //obs tu ta na epoca da faculdade de cyber nesse tempo
+}
+*/
 .imagens{
     margin-top: 10em;
     
