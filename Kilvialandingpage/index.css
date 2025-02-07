@@ -80,7 +80,18 @@ body{
     background-image: radial-gradient(circle, rgb(146, 230, 211), rgb(151, 236, 218), rgb(134, 214, 197)) /*(circle, rgb(134, 214, 197), rgb(151, 236, 218), rgb(134, 214, 197))*/ ;
 }
 
-.section1{
+.texto1{
+    margin-top: 5em;
+    margin-left: 10%;
+    padding-left: 2%;
+    height: 5em;
+    width: 15em;
+    font-size: 22pt;
+    color: rgb(192, 147, 88);
+    box-shadow: 1px 1px 15px  rgba(0, 0, 0, 0.445);
+}
+
+.sectionCarrossel{
     margin-top: 10em;
     /*margin-top: 10em;
     margin-left: 5%;
@@ -88,11 +99,14 @@ body{
     height: 15em;
     gap: 1em;*/
    position: relative;
+   
    width: 20%;
     /*width: 18%;*/
     margin: auto;
     position: relative;
     overflow: hidden;
+    border-radius: 10px;
+    
     
 }
 
@@ -115,7 +129,7 @@ body{
     margin-top: 10em;
     
     height: 15em;
-    width: 15em;
+    width: 25em;
     
 }
 
