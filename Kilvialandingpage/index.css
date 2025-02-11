@@ -1,12 +1,16 @@
 body{
     margin: 0;
     top: 0;
-    
+  
+}
+html{
+    scroll-behavior: smooth;
 }
 .font {
     font-family: "Great Vibes", serif;
     font-weight: 400;
     font-style: normal;
+    color: rgb(192, 147, 88);
   }
 
 
@@ -14,6 +18,7 @@ body{
     margin-top: -3em;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.671);
     display: flex;
+   
 }
 @media (min-width: 320px) and (max-width: 504px){
     #cabeçalho{
@@ -91,8 +96,26 @@ body{
     box-shadow: 1px 1px 15px  rgba(0, 0, 0, 0.445);
 }
 
+#copyUm{
+    display: flex; 
+    /*background: rgb(223, 222, 222);*/
+    background: rgba(223, 222, 222, 0.301);
+    min-height: 35em;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 0 30px rgba(255, 255, 255, 0.6);
+    border: 2px solid rgba(255, 255, 255, 0.705);
+
+}
+
+#sectionUm{
+   height: 30em;
+    backdrop-filter: 15px;
+    background-color:  rgba(221, 242, 252, 0.589);
+   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.507);
+}
+
 .sectionCarrossel{
-    margin-top: 10em;
+   
     /*margin-top: 10em;
     margin-left: 5%;
     display: flex;
@@ -116,76 +139,37 @@ body{
     transform: translateX(0);
     /*width: 15em;*/
 }
-/*
-.carrossel {
-    display: flex;
-    width: calc(15em * 5); 
-    transition: transform 0.5s ease-in-out;
 
-    houve um recomendaçao de ser assim estuda isso assim que puder //obs tu ta na epoca da faculdade de cyber nesse tempo
-}
-*/
 .imagens{
-    margin-top: 10em;
+    margin-top: 5em;
     
     height: 15em;
     width: 25em;
-    
-}
 
-.slides{
-    /*width: 80%;*/
-    width: 110%;
-    margin-top: 10em;
-    display: flex;
-    transition: transform 0.5 ease;
-    gap: 1em;
-    
-}
-
-.slide{
-    min-width: 15em;
-    min-height: 20em;
-    transition: opacity 1s ease-in-out;
-}
-.slide img {
-    width: 92%;
-    display: block;
-    
-}
-
-.cordiv{
-     background-image: linear-gradient(to right, rgb(192, 147, 88), rgb(209, 161, 98), rgb(168, 119, 54), rgb(250, 210, 158)) ;
-     height: 11.5em;
-     width: 12em;
-     border-radius: 100%;
-     
-}
-
-.imagens{
-    /*height: 10.5em;
-    width: 11em;*/
     border-radius: 10%;
     padding-top: 0.5em;
     padding-left: 0.4em;
 }
 
-button {
-    position: absolute;
-    top: 70%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-  }
-  .prev {
-    margin-top: 6em;
-    left: 10px;
-  }
-  
-  .next {
-    margin-top: 6em;
-    right: 10px;
-  }
+#sectionDois{
+    display: flex;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 0 30px rgba(255, 255, 255, 0.6);
+    border:0px solid rgba(255, 255, 255, 0.705);
+    
+    background: rgba(223, 222, 222, 0.301);
+   
+}
+
+.imgSectionDois{
+    width: 8em;
+    height: 20em;
+   
+ 
+}
+#depoimentosTexto{
+    font-size: 23pt;
+     margin-top: 2em;
+    margin-left: 30%;
+}
+
