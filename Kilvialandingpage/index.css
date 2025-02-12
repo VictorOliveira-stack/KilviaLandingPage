@@ -108,7 +108,7 @@ html{
 }
 
 #sectionUm{
-   height: 30em;
+   height: 36em;
     backdrop-filter: 15px;
     background-color:  rgba(221, 242, 252, 0.589);
    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.507);
@@ -123,7 +123,7 @@ html{
     gap: 1em;*/
    position: relative;
    
-   width: 40%;
+   width: 30%;
     /*width: 18%;*/
     margin: auto;
     position: relative;
@@ -143,8 +143,8 @@ html{
 .imagens{
     margin-top: 5em;
     
-    height: 15em;
-    width: 25em;
+    height: 20em;
+    width: 20em;
 
     border-radius: 10%;
     padding-top: 0.5em;
@@ -158,7 +158,7 @@ html{
     border:0px solid rgba(255, 255, 255, 0.705);
     
     background: rgba(223, 222, 222, 0.301);
-   
+    
 }
 
 .imgSectionDois{
@@ -172,4 +172,50 @@ html{
      margin-top: 2em;
     margin-left: 30%;
 }
+
+footer{
+    background-color:  rgba(221, 242, 252, 0.589);
+    /*background-image: radial-gradient(circle ,rgb(240, 38, 55),rgb(226, 35, 51),rgb(168, 17, 29),rgb(122, 10, 20));*/
+    height: 7em;
+    width: 100%;
+}
+@media (min-width: 320px) and (max-width: 504px){
+    #footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+#divfoot{
+    padding-top: 1em;
+    display: flex; 
+    margin-left: 30%;
+    gap: 10em;
+}
+@media (min-width: 320px) and (max-width: 504px){
+    #divfoot{
+        gap: 30px;
+    }
+}
+@media (min-width: 505px) and (max-width: 768px){
+    #divfoot{
+        gap: 50px;
+        margin-left: 40%;
+    }
+}
+@media (min-width: 1441px) and (max-width: 1920px){
+    #divfoot{
+        margin-left: 38%;
+    }
+}
+@media (min-width: 1921px) and (max-width: 2650px){
+    #divfoot{
+        margin-left: 42%;
+    }
+}
+.whatsapp{
+    height: 2em; width: 2em; cursor: pointer;
+}
+
 

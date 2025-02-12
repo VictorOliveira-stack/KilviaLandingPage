@@ -14,7 +14,7 @@ function carrossel(){
     if(move > imagens.length -1){
         move = 0;
     }
-        carrossll.style.transform = `translateX(${-move *9}em)`;
+        carrossll.style.transform = `translateX(${-move *13}em)`;
 
 }
     setInterval(carrossel, 2000)
