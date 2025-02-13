@@ -75,6 +75,11 @@ html{
     box-shadow: 0px 0px 1px 2px rgba(0, 0, 0, 0.301);
     border-radius: 10em;
 }
+@media (min-width: 320px) and (max-width: 504px){
+    #cta{
+        margin-top: 1em;
+    }
+}
 
 #cta:hover{
     transform: scale(1.1);
@@ -203,7 +208,7 @@ html{
 }
 
 footer{
-    background-color:  rgba(221, 242, 252, 0.589);
+  
     /*background-image: radial-gradient(circle ,rgb(240, 38, 55),rgb(226, 35, 51),rgb(168, 17, 29),rgb(122, 10, 20));*/
     height: 7em;
     width: 100%;
@@ -217,6 +222,7 @@ footer{
 }
 
 #divfoot{
+    
     padding-top: 1em;
     display: flex; 
     margin-left: 40%;
@@ -245,6 +251,11 @@ footer{
 }
 .whatsapp{
     height: 2em; width: 2em; cursor: pointer;
+   
 }
-
+#endereço{
+    margin-left: 37%;
+    margin-top: 2em;
+    font-weight: 600;
+}
 
