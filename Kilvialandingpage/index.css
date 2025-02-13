@@ -114,12 +114,20 @@ html{
    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.507);
    display: flex;
 }
+
+#produtos{
+    margin-left: 33%;
+    margin-top:2em;
+    font-size: 23pt;
+}
+
 .cakeUm{
     height: 5em;
     width: 5em;
     opacity: 40%;
     margin-left: 10%;
     margin-top: 15em;
+    transform: rotate(15deg);
 }
 
 .cakeDois{
@@ -128,6 +136,7 @@ html{
     opacity: 40%;
     margin-right: 10%;
    margin-top: 25em;
+   transform: rotate(-15deg);
 }
 
 .sectionCarrossel{
@@ -186,7 +195,11 @@ html{
 #depoimentosTexto{
     font-size: 23pt;
      margin-top: 2em;
-    margin-left: 30%;
+    margin-left: 36%;
+}
+#clientesSatisfeitos{
+    margin-left: 25%; 
+    margin-bottom: 2em;
 }
 
 footer{
@@ -206,7 +219,7 @@ footer{
 #divfoot{
     padding-top: 1em;
     display: flex; 
-    margin-left: 30%;
+    margin-left: 40%;
     gap: 10em;
 }
 @media (min-width: 320px) and (max-width: 504px){

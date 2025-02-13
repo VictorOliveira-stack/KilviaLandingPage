@@ -19,6 +19,10 @@ function carrossel(){
 }
     setInterval(carrossel, 2000)
 
+function ctaa(){
+    window.open("https://www.instagram.com/kilvia_cakes1?igsh=MWh2MWJ3bHk3Mzgzaw==", "_blank")
+}
+
 
 /*let currentIndex = 0
 const slides = document.querySelectorAll(".slide")
