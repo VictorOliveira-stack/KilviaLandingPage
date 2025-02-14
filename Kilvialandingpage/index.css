@@ -209,7 +209,7 @@ html{
 }
 @media (min-width: 320px) and (max-width: 504px){
    .sectionCarrossel{
-     min-width: 50%;
+     min-width: 10em;
    }
 }
 
@@ -229,6 +229,12 @@ html{
     border-radius: 10%;
     padding-top: 0.5em;
     padding-left: 0.4em;
+}
+@media (min-width: 320px) and (max-width: 504px){
+    .imagens{
+        height: 20em;
+        width: 13em;
+    }
 }
 
 #sectionDois{
