@@ -140,8 +140,8 @@ html{
     #quadradoDois{
         margin-top: 12em; 
         margin-left: -8em; 
-        height: 6em;
-        width: 9em;
+        min-height: 6em;
+        min-width: 9em;
     }
 }
 
