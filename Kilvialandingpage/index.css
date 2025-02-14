@@ -116,6 +116,33 @@ html{
 #quadradoUm{
     margin-left: 20%;
     background-color: white;
+    min-height: 6em;
+    padding-top: 0.3em;
+}
+@media (min-width: 320px) and (max-width: 504px){
+    #quadradoUm{
+        margin-left: 5%;
+        background-color: white;
+        min-height: 8em;
+        min-width: 9em ;
+        word-wrap: break-word;
+    }
+}
+
+#quadradoDois{
+    height: 4em; 
+    margin-left: -5em; 
+    margin-top: 9.5em; 
+    background-color: white; 
+    padding-top: 1em;
+}
+@media (min-width: 320px) and (max-width: 504px){
+    #quadradoDois{
+        margin-top: 12em; 
+        margin-left: -8em; 
+        height: 6em;
+        width: 9em;
+    }
 }
 
 #sectionUm{
