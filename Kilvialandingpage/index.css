@@ -23,7 +23,7 @@ html{
 @media (min-width: 320px) and (max-width: 504px){
     #cabeçalho{
         flex-direction: column;
-        
+        min-height: 20em;
     }
 }
 
@@ -36,9 +36,9 @@ html{
 @media (min-width: 320px) and (max-width: 504px){
     #fotocabeçalho{
         margin-left: 1em;
-        margin-top: 0;
-        height: 14em;
-        width: 18em;
+        margin-top: 0.5em;
+        height: 10em;
+        width: 12em;
     }
 }
 
@@ -78,6 +78,7 @@ html{
 @media (min-width: 320px) and (max-width: 504px){
     #cta{
         margin-top: 1em;
+        margin-left: 35%;
     }
 }
 
@@ -110,6 +111,11 @@ html{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 0 30px rgba(255, 255, 255, 0.6);
     border: 2px solid rgba(255, 255, 255, 0.705);
 
+}
+
+#quadradoUm{
+    margin-left: 20%;
+    background-color: white;
 }
 
 #sectionUm{
