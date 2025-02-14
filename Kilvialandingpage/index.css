@@ -167,6 +167,12 @@ html{
     margin-top: 15em;
     transform: rotate(15deg);
 }
+@media (min-width: 320px) and (max-width: 504px){
+    .cakeUm{
+        height: 0em;
+        width: 0em;
+    }
+}
 
 .cakeDois{
     height: 5em;
@@ -175,6 +181,12 @@ html{
     margin-right: 10%;
    margin-top: 25em;
    transform: rotate(-15deg);
+}
+@media (min-width: 320px) and (max-width: 504px){
+    .cakeDois{
+        height: 0em;
+        width: 0em;
+    }
 }
 
 .sectionCarrossel{
@@ -194,6 +206,11 @@ html{
     border-radius: 10px;
     
     
+}
+@media (min-width: 320px) and (max-width: 504px){
+   .sectionCarrossel{
+     min-width: 50%;
+   }
 }
 
 .carrossel{
@@ -224,21 +241,42 @@ html{
     
 }
 
-.imgSectionDois{
-    width: 6em;
-    height: 13em;
-   
- 
+
+#clientesSatisfeitos{
+    margin-left: 25%; 
+    margin-bottom: 2em;
 }
+@media (min-width: 320px) and (max-width: 504px){
+    #clientesSatisfeitos{
+        margin-left: 5%; 
+        margin-bottom: 2em;
+    }
+}
+
 #depoimentosTexto{
     font-size: 23pt;
      margin-top: 2em;
     margin-left: 36%;
 }
-#clientesSatisfeitos{
-    margin-left: 25%; 
-    margin-bottom: 2em;
+@media (min-width: 320px) and (max-width: 504px){
+    #depoimentosTexto{
+        margin-left: 29%;
+    }
 }
+
+.imgSectionDois{
+    width: 6em;
+    height: 13em; 
+}
+@media (min-width: 320px) and (max-width: 504px){
+    .imgSectionDois{
+        width: 6em;
+        height: 9em;
+    }
+}
+
+
+
 
 footer{
   
@@ -290,5 +328,10 @@ footer{
     margin-left: 37%;
     margin-top: 2em;
     font-weight: 600;
+}
+@media (min-width: 320px) and (max-width: 504px){
+    #endereço{
+        margin-left: 10%;
+    }
 }
 
