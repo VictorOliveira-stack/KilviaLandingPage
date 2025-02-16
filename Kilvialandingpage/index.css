@@ -1,10 +1,30 @@
 body{
     margin: 0;
     top: 0;
+    
+    
   
 }
+@media (min-width: 1921px) and (max-width: 2650px){
+    body{
+        width: 50%;
+        margin-left: 25%;
+        border: 1px solid rgba(0, 0, 0, 0.692); /* Borda preta de 3px */
+        padding: 10px;
+    }
+}
+@media (min-width: 2651px) and (max-width: 2672px){
+    body{
+        width: 50%;
+        margin-left: 25%;
+        border: 1px solid rgba(0, 0, 0, 0.692); /* Borda preta de 3px */
+        padding: 10px;
+    }
+}
+
 html{
     scroll-behavior: smooth;
+     
 }
 .font {
     font-family: "Great Vibes", serif;
@@ -351,6 +371,16 @@ footer{
         flex-direction: column;
     }
 }
+@media (min-width: 1921px) and (max-width: 2650px){
+    #footer{
+        min-height: 9em;
+    }
+}
+@media (min-width: 2651px) and (max-width: 2672px){
+    #footer{
+        min-height: 9em;
+    }
+}
 
 #divfoot{
     
@@ -378,6 +408,7 @@ footer{
 @media (min-width: 1921px) and (max-width: 2650px){
     #divfoot{
         margin-left: 42%;
+        
     }
 }
 .whatsapp{
@@ -404,3 +435,4 @@ footer{
         margin-left: 34%;
     }
 }
+
