@@ -436,3 +436,24 @@ footer{
     }
 }
 
+#desenvolvedor{
+    background-color: black;
+    color: white;
+    font-size: 12pt;
+    margin-top: 3em;
+    padding-left: 40%;
+    cursor: pointer;
+}
+@media (min-width: 425px) and (max-width: 504px){
+    #desenvolvedor{
+        padding-left: 23%;
+    }
+}
+@media(min-width: 505px) and (max-width: 768px){
+    #desenvolvedor{
+        padding-left: 35%;
+    }
+}
+#desenvolvedor:hover{
+    color: blue;
+}
